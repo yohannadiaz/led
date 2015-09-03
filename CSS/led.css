@@ -1,0 +1,34 @@
+body
+
+.led-yellow {
+  margin: 0 auto;
+  width: 200px; 
+  height: 200px;
+  border: 2px solid #FFFF00; 
+  background: #0000CD;
+ -moz-border-radius: 100px 100px 0 0;
+ border: 2px solid #FFFF00; 
+ background: #0000CD;
+-moz-border-radius: 100px 100px 0 0;
+-webkit-border-radius: 100px 100px 0 0;
+ border-radius: 100px 100px 0 0;
+ box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #808002 0 -1px 20px, #F0FF0B 0 2px 100px;
+ -webkit-animation: blinkYellow 1s infinite;
+ -moz-animation: blinkamarillo 1s infinite;
+  
+}
+  
+  
+}
+
+@amarillo {
+    from { background-color: #FFFF00; }
+    50% { background-color: #FFFF00; box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #808002 0 -1px 9px, #FFFF00 0 2px 0; }
+    to { background-color:#FFFF00; }
+
+}
+@keyframes blinkYellow {
+    from { background-color: #FFFF00; }
+    50% { background-color: #FFFF00; box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #808002 0 -1px 9px, #FFFF00 0 2px 0; }
+    to { background-color: #FFFF00; }
+}
